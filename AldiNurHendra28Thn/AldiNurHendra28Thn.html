@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday Kak Aldi✨</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <audio id="bgMusic" loop>
+        <source src="happy.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="container">
+        <h1 class="title">SELAMAT HARI NETAS 🎉</h1>
+
+        <img src="8.jpg" class="cake-img">
+
+        <div class="buttons">
+            <button class="btn" onclick="playMusic()">Pencet Sini Hak Dulu 🎵</button>
+            <button class="btn" onclick="openVideo()">Terus yang ini 🎬</button>
+            <button class="btn" onclick="openGift()">🎁 Nah Buat Pian</button>
+        </div>
+
+        <div class="memo">
+            <h3>PESAN :</h3>
+            <p>
+                tf dulu k3 4Ku 100k B4ru ku dO'4 k4n... 61ni 61ni 4n4k IT bi5a jaD1 duKuN 🫦
+            </p>
+        </div>
+    </div>
+
+    <div id="popupRules" class="popup">
+        <div class="rules-box">
+            <button class="close-x" onclick="closeRules()">✖</button>
+
+            <h2>Rules ✨</h2>
+            <p>• nan patama, ikam pancat hak dulu kaina ada tombol gambar musik tu🎵</p>
+            <p>• kadua, kam pancat tombol video</p>
+            <p>• katiga, pancat hak tu hada kaɟutan pake tombol kado</p>
+            <p>• nah selesai dah.. pian nikmati dan hasil setres ku mengolah dari memori memori kuliah ✨</p>
+        </div>
+    </div>
+
+
+    <div id="popupVideo" class="popup">
+        <div class="popup-video-box">
+            <button class="close-x" onclick="closeVideo()">✖</button>
+
+            <video id="videoPlayer" controls>
+                <source src="video6.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <!-- pr lagi anjir buat popup gift -->
+    <div id="popupGift" class="popup">
+        <div class="popup-gift-box">
+            <button class="close-x" onclick="closeGift()">✖</button>
+
+            <div class="gift-photos">
+                <img src="image10.jpg">
+                <img src="image11.jpg">
+                <img src="image12.jpg">
+                <img src="image20.jpg">
+                <img src="image21.jpg">
+                <img src="image22.jpg">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
